@@ -1,0 +1,299 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+  font-family: Zen Kaku Gothic Antique;
+  white-space: nowrap;
+}
+/* 
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+} */
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+header{
+  background-image: url(img/white-cloud-on-blue-sky-and-sea\ 1.png);
+  background-size: cover;
+  position: relative;
+}
+h1 {
+  font-family: craftmincho;
+}
+body{
+  background-color: #eef1f6;
+  /* font-family: Zen Kaku Gothic Antique; */
+  color: #383e45;
+}
+.main{
+  /* background-image: url(img/white-cloud-on-blue-sky-and-sea\ 1.png);
+  background-size: cover; */
+  background-position: center;
+  height: 75vh;
+}
+.main{
+  padding: 100px 80px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.main1 h1,
+.main1 h2{
+  font-family: craftmincho;
+  color: white;
+  text-shadow: 0px 2px 12px #00000071;
+}
+.main1 h1{
+  font-size: 110px;
+  margin-bottom: 30px;
+}
+.main1{
+  margin: 0 auto;
+}
+.main1 h2{
+  font-size: 48px; 
+}
+.clean{
+  text-align: center;
+  padding-top: 200px;
+  font-size: 32px;
+}
+.clean span{
+  color: #00C2FF;
+}
+.clean h2{
+  border: none;
+  font-weight: 400;
+}
+hr {
+  border: none;
+}
+.clean1{
+  padding-top: 200px;
+}
+.concept0 {
+  display: flex;
+  align-items: center;
+}
+.concept1 {
+  width: 50vw; 
+  /* height: auto; */
+  margin-left: 10vw;
+  margin-right: auto;
+}
+.consept4{
+  font-size: 24px;
+  margin: 0 10vw;
+  
+}
+.consept4 h1{
+  border-bottom: 10px solid #FFC906;
+  font-size: 40px;
+  width: fit-content;
+}
+.consept4 p{
+  padding-top: 30px;
+}
+.concept3 {
+  display: flex;
+  margin-top: 150px;
+  align-items: center;
+}
+.concept6{
+  width: 40vw;
+  margin-right: 12vw;
+  margin-left: auto;
+}
+.consept5 {
+  font-size: 24px;
+  margin: 0 15vw;
+}
+.consept5 h1{
+  width: fit-content;
+  border-bottom: 10px solid #00C2FF;
+  font-size: 40px;
+  /* margin: 0 auto; */
+}
+.consept5 p{
+  padding-top: 30px;
+}
+.clean11{
+  margin-top: 150px;
+  background-color: white;
+  border-radius: 30px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.concept01{
+  
+  width: 500px;
+  height: 500px;
+  
+}
+.consept10{
+  text-align: center;
+
+}
+.consept10 h1{
+  padding-top: 30px;
+  border-bottom: 10px solid #FFC906;
+  font-size: 40px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.consept10 p{
+  padding-top: 30px;
+}
+.clean-img img{
+  padding-top: 100px;
+
+}
+.clean-img{
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.Apps{
+  display: flex;
+  margin: 150px 8vw;
+  align-items: center;
+}
+.Apps1{
+  font-size: 24px;
+  line-height: 58px; 
+  padding: 0 80px;
+  height: fit-content;
+  width: fit-content;
+}
+.Apps1 p {
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 3px;
+}
+.main6{
+  width: 300px;
+  height: 300px;
+  border-radius: 10000px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-flow: column;
+  font-size: 24px;
+}
+.main6:hover{
+  opacity: 0.7;
+}
+.app {
+  background-color: #2DA0C4;
+  font-family: craftmincho;
+}
+.app h2 {
+  font-family: craftmincho;
+  margin-bottom: 24px;
+}
+
+.github {
+  background-color: #383E45;
+}
+.github h2 {
+  margin-bottom: 24px;
+}
+
+.main4 {
+  display: flex;
+  gap: 36px;
+  margin-left: auto;
+}
+.last img{
+  width: 100%;
+}
+
+.evaluation {
+  margin: 150px auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.evaluation h2 {
+  font-size: 40px;
+  border-bottom: 10px solid #00c3ff;
+  width: fit-content;
+  margin-bottom: 40px;
+  font-family: craftmincho;
+
+}
+
+.evaluation h3 {
+  font-size: 20px;
+  font-weight: medium;
+}
+
+.evaluation-circle {
+  width: 240px;
+  height: 240px;
+  border-radius: 10000px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-flow: column;
+  font-size: 24px;
+  position: relative;
+
+}
+
+.evaluation-circle p {
+  color: #2e3339;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 4px 20px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 10;
+  background-color: #fff;
+  border-radius: 10000px;
+}
+
+.blue {
+  background-color: #2DA0C4;
+}
+
+.yellow {
+  background-color: #FFC906;
+}
+
+.evaluation-circle-flex {
+  display: flex;
+  gap: 24px;
+}
+
+.go-app {
+  background-color: #2DA0C4;
+  color: #fff;
+  font-family: craftmincho;
+  font-size: 28px;
+  text-align: center;
+  position: absolute;
+  right: 0px;
+  padding: 24px 57px;
+  border-bottom-left-radius: 40px;
+}
+
+.Apps1 h1 {
+  font-family: Zen Kaku Gothic Antique;
+}
